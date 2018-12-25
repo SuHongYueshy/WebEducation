@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WebEducation:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebEducation_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="WebEducation/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebEducation" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: c3p0:c3p0:0.9.1.2" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.54" />
+          <element id="library" level="project" name="Maven: commons-dbutils:commons-dbutils:1.7" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.44" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
